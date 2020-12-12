@@ -1,0 +1,16 @@
+Waiting for connection...
+Connection accepted!
+Авторы (ИС-841): Шамбуров Михаил
+Аргументы:
+1) -mv <oldName> <newName> - перемещает файл из oldName в newName
+Пример: ./file_manager -mv code.cpp src/code.cpp
+2) -dl <fileName> - удаляет файл fileName
+Пример: ./file_manager -dl src/code.cpp
+3) -cp <fileName> <destionation> - копирует файл fileName в destionation
+Пример: ./file_manager -cp src/code.cpp ../code.cpp
+4) -ls <fileName> - показывает содержимое каталога fileName
+Пример: ./file_manager -ls src/
+3) -sz <fileName> - показывае размер файла или каталога fileName
+Пример: ./file_manager -sz src/
+3) -pinf - показывает информацию о процессах из procfs
+Пример: ./file_manager -pinf

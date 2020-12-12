@@ -98,12 +98,12 @@ int FileManager::showProcfsProcesses()
     }
     dirent *contentInfo;
 
-    std::cout << std::setiosflags(std::ios::left);
-    std::cout << std::setw(20) << "COMM";
-    std::cout << std::setw(6) << "PID";
-    std::cout << std::setw(6) << "STATE";
-    std::cout << std::setw(6) << "PPID";
-    std::cout << std::setw(6) << "NICE" << std::endl;
+    // std::cout << std::setiosflags(std::ios::left);
+    // std::cout << std::setw(20) << "COMM";
+    // std::cout << std::setw(6) << "PID";
+    // std::cout << std::setw(6) << "STATE";
+    // std::cout << std::setw(6) << "PPID";
+    // std::cout << std::setw(6) << "NICE" << std::endl;
 
     while ((contentInfo = readdir(dir)) != nullptr)
     {
@@ -120,11 +120,11 @@ int FileManager::showProcfsProcesses()
                 throw error;
             }
 
-            std::cout << std::setw(20) << getPidInfo(pidInfo, 2);
-            std::cout << std::setw(6) << pid;
-            std::cout << std::setw(6) << getPidInfo(pidInfo, 1);
-            std::cout << std::setw(6) << getPidInfo(pidInfo, 1);
-            std::cout << std::setw(6) << getPidInfo(pidInfo, 15) << std::endl;
+            // std::cout << std::setw(20) << getPidInfo(pidInfo, 2);
+            // std::cout << std::setw(6) << pid;
+            // std::cout << std::setw(6) << getPidInfo(pidInfo, 1);
+            // std::cout << std::setw(6) << getPidInfo(pidInfo, 1);
+            // std::cout << std::setw(6) << getPidInfo(pidInfo, 15) << std::endl;
         }
         delete pid;
     }

@@ -1,0 +1,4 @@
+language: cpp
+dist: xenial
+os: linux
+compiler: g++

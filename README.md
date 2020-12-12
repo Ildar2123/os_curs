@@ -1,1 +1,1 @@
-[!https://travis-ci.com/blizpear/os_curs.svg?branch=main]
+[![Build Status](https://travis-ci.com/blizpear/os_curs.svg?branch=main)]

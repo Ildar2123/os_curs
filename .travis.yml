@@ -3,4 +3,4 @@ dist: xenial
 os: linux
 compiler: g++
 script:
-    - make
+     -make

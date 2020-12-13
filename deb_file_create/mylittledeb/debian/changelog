@@ -1,0 +1,5 @@
+mylittledeb (0.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Artem Perov <blizpear@unknown>  Sun, 13 Dec 2020 23:28:49 +0700

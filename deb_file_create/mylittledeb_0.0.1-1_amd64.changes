@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sun, 13 Dec 2020 23:28:49 +0700
+Source: mylittledeb
+Binary: mylittledeb
+Architecture: source amd64
+Version: 0.0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Artem Perov <blizpear@unknown>
+Changed-By: Artem Perov <blizpear@unknown>
+Description:
+ mylittledeb - <insert up to 60 chars description>
+Changes:
+ mylittledeb (0.0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ e13fbd4acdac19287e4e242fecbbcb3c1ca03f3f 855 mylittledeb_0.0.1-1.dsc
+ d8f75c4c1d9f8fb641feaffda6b1652485f0fd5f 4388 mylittledeb_0.0.1.orig.tar.xz
+ 744f9a7e65a9300eeac3351bed191efce9d7f3fd 7892 mylittledeb_0.0.1-1.debian.tar.xz
+ 25f13f74611a10dc4dcb40d9cf5174c6541f3c58 5755 mylittledeb_0.0.1-1_amd64.buildinfo
+ 849402a58f1e10bcafd5b9433e547194465fc97c 2360 mylittledeb_0.0.1-1_amd64.deb
+Checksums-Sha256:
+ a2bdc76b41e805f8a1e07789b2845d6140061b695531623aa9501f8e73a436f6 855 mylittledeb_0.0.1-1.dsc
+ 7617b1a2a13c62f2001e70156eb9fcd17f86ceaf6b787d3b0b447107cce9fcf4 4388 mylittledeb_0.0.1.orig.tar.xz
+ 9ec1c69582f0333f3b5ecd792a2a4eeb80a10465c16a19135292153a52d8df11 7892 mylittledeb_0.0.1-1.debian.tar.xz
+ 35106f350dc3555281083944a9cfa102afcadff3583ff215ef4607f961eddc5a 5755 mylittledeb_0.0.1-1_amd64.buildinfo
+ 636a4c5b7aec03e44c672d5a9c0368333dc4c26fa0242cb36bec9af83e6e062f 2360 mylittledeb_0.0.1-1_amd64.deb
+Files:
+ f6bcd137dbd21bafac41e6e8f248a56b 855 unknown optional mylittledeb_0.0.1-1.dsc
+ b7a7d112f9f1a95f1d53f95ba35599eb 4388 unknown optional mylittledeb_0.0.1.orig.tar.xz
+ ac06527467b22f8c495ef46c9231c4f4 7892 unknown optional mylittledeb_0.0.1-1.debian.tar.xz
+ 93323f22bb15f07c147e36b261b24281 5755 unknown optional mylittledeb_0.0.1-1_amd64.buildinfo
+ f07fb40b0b2f79c73dc37b63c0f077af 2360 unknown optional mylittledeb_0.0.1-1_amd64.deb

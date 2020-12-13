@@ -1,0 +1,15 @@
+Source: mylittledeb
+Section: unknown
+Priority: optional
+Maintainer: Artem Perov <blizpear@unknown>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/mylittledeb
+#Vcs-Git: https://salsa.debian.org/debian/mylittledeb.git
+
+Package: mylittledeb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
